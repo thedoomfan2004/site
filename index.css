@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #212121;
+}
+
+.bb {
+    border: 1px solid red;
+}
+.page {
+    width: 1440px;
+height: 2817px;
+margin: 20px;
+background: #FFFFFF;
+display: grid;
+grid-template-columns: 329px 1111px;
+grid-template-rows: 800px 1424px 593px;
+}
+.sidebar {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    background: #2D3E4F;
+    
+}
+.header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-image: url(./INCREDIBLE-IMG/header-back.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.footer {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    display: flex;
+    flex-direction: column;
+}
+nav {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav-ul {
+    margin-top: 206px;
+    
+}
+.nav-li {
+list-style: none;
+margin-top: 40px;
+}
+.navli-v1 {
+    font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 25px;
+/* identical to box height, or 83% */
+
+text-align: center;
+letter-spacing: 1px;
+
+color: #CF404D;
+}
+.navli-v2 {
+    font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #CF404D;
+}
+.navli-v3 {
+    font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.navli-v4 {
+    font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.navli-v5 {
+    font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.nav-li:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+.header-con {
+    width: 100%;
+    height: 155px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.header-p {
+    font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 44px;
+/* or 88% */
+
+text-align: center;
+letter-spacing: 3px;
+text-transform: uppercase;
+width: 551px;
+height: 88px;
+color: #FFFFFF;
+}
+.header-bttn1 {
+    width: 112px;
+    height: 47px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    color: white;
+    font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height, or 131% */
+letter-spacing: 1px;
+text-align: center;
+align-self:flex-end ;
+color: #FFFFFF;
+border-radius: 4px;
+    background-color: transparent;
+}
+.header-bttn2 {
+    width: 112px;
+    height: 47px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #CF404D;
+    color: white;
+    font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height, or 131% */
+letter-spacing: 1px;
+text-align: center;
+align-self:flex-end ;
+border-radius: 4px;
+color: #FFFFFF;
+    
+}
+.header-bttns {
+    gap: 10px;
+    margin-top: 15px;
+}
+.header-bttn1:hover {
+    cursor: pointer;
+    background-color: rgb(94, 255, 0);
+    
+    color: black;
+    transition-duration: 0.3s;
+}
+.header-bttn2:hover{
+    cursor: pointer;
+    background-color: rgb(94, 255, 0);
+    
+    color: black;
+    transition-duration: 0.3s;
+    
+}
+.main-v1 {
+    width: 100%;
+    height: 549px;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.mainv1-p {
+    height: 82px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 31px;
+line-height: 36px;
+/* identical to box height, or 116% */
+margin-top: 57px;
+text-align: center;
+text-transform: uppercase;
+
+color: #313131;
+}
+.mainv1-s {
+    font-family: Droid Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 30px;
+/* identical to box height, or 158% */
+
+text-align: center;
+
+color: rgba(115, 115, 115, 0.74);
+
+}
+.menuv1-content {
+    width: 940px;
+    height: 279px;
+    display: flex;
+   margin: 0 auto;
+    margin-top: 62px;
+}
+.menuv1con-v1 {
+    height: 279px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+}
+.main-img1 {
+    width: 80px;
+    height: 47px;
+    margin-top: 26px;
+    margin-left: 20px;
+}
+.main-span {
+    font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 30px;
+/* identical to box height, or 176% */
+
+text-transform: uppercase;
+margin-top: 45px;
+
+color: #313131;
+}
+.mainv1con-p {
+    
+font-family: droid Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 20px;
+/* or 133% */
+
+margin-top: 11px;
+color: rgba(0, 0, 0, 0.74);
+}
+.main-span2 {
+    font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+margin-top: 7px;
+letter-spacing: 1px;
+color: #ff0015;
+width: 60px;
+
+}
+.main-span2:hover {
+cursor: pointer;
+text-decoration: underline;
+}
+.mainimg2 {
+    width: 73px;
+    height: 73px;
+}
+.mainimg3 {
+    width: 80px;
+    height: 80px;
+}
+.mainimg4 {
+    width:80px;
+    height: 60px ;
+}
+.mainspan2 {
+    margin-top: 32px;
+}
+.mainspan3 {
+    margin-top: 27px;
+}
+.main-v2 {
+    width: 100%;
+    height: 135px;
+    background: #CF404D;
+    display: flex;
+    align-items: center;
+}
+.mainv2-p {
+    font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 31px;
+line-height: 36px;
+/* identical to box height, or 116% */
+margin-left: 86px;
+
+color: #FFFFFF;
+
+}
+.mainv2-bttn {
+    border: 2px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 4px;
+background-color: transparent;
+font-family: Oswald;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+/* identical to box height, or 131% */
+height: 47px;
+width: 127px;
+margin-left: 492px;
+
+color: #FFFFFF;
+
+margin-right: 91px;
+}
+.mainv2-bttn:hover{
+    cursor: pointer;
+    transition-duration: 0.3s;
+    background-color: rgb(94, 255, 0);
+    
+    color: black;
+}
+.main-v3 {
+    width: 100%;
+    height: 740px;
+    display: flex;
+  
+    text-align: center;
+    flex-direction: column;
+}
+.mainv3-p {
+    font-family: Oswald;
+font-style: normal;
+font-weight: bold;
+font-size: 31px;
+line-height: 36px;
+/* identical to box height, or 116% */
+width: 100%;
+height: 88px;
+margin-top: 58px;
+text-align: center;
+text-transform: uppercase;
+
+color: #313131;
+
+}
+.mainv3-s {
+    font-family: Droid Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 30px;
+/* identical to box height, or 158% */
+
+text-align: center;
+
+color: rgba(115, 115, 115, 0.74);
+
+}
+.mainv3-con {
+    margin-top: 72px;
+    width: 920px;
+    height: 450px;
+    margin-left: 96px;
+    display: grid;
+    grid-template-columns: repeat(4, 215px);
+    grid-template-rows: 215px 215px;
+    row-gap: 20px;
+    column-gap: 20px
+  
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #FAFAFA;
+    border-top: 1px solid  #E1E1E1;
+    
+}
+.footer-p {
+    font-family: Oswald;
+font-style: normal;
+font-weight:bold;
+font-size: 31px;
+line-height: 36px;
+/* identical to box height, or 116% */
+margin-top: 58px;
+text-align: center;
+text-transform: uppercase;
+
+color: #313131;
+
+}
+.footer-span {
+    font-family: Droid Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 30px;
+/* identical to box height, or 158% */
+
+text-align: center;
+
+color: rgba(115, 115, 115, 0.74);
+
+}
+
+.emails {
+    width: 583px;
+    height: 244px;
+    margin-top: 62px;
+
+}
+.name {
+
+    background: #FFFFFF;
+box-shadow: 0px 0px 0px rgba(64, 64, 71, 0.3);
+border-radius: 3px;
+}
